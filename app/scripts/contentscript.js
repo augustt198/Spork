@@ -33,6 +33,8 @@ function handleText(textNode) {
     v = v.replace(/\bForking\b/g, 'Sporking');
     v = v.replace(/\bfork\b/g, 'sporked');
     v = v.replace(/\bFork\b/g, 'Sporked');
+    v = v.replace(/\bforks\b/g, 'sporks');
+    v = v.replace(/\bForks\b/g, 'Sporks');
 
     textNode.nodeValue = v;
 }
