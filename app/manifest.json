@@ -1,6 +1,6 @@
 {
     "name": "__MSG_appName__",
-    "version": "0.0.10",
+    "version": "0.0.11",
     "manifest_version": 2,
     "description": "__MSG_appDescription__",
     "icons": {
@@ -19,7 +19,9 @@
                 "http://github.com/*",
                 "https://github.com/*",
                 "http://*.github.com/*",
-                "https://*.github.com/*"
+                "https://*.github.com/*",
+                "http://ghbtns.com/*",
+                "https://ghbtns.com/*"
             ],
             "css": [
                 "styles/main.css"
@@ -35,6 +37,8 @@
         "http://github.com/*",
         "https://github.com/*",
         "http://*.github.com/*",
-        "https://*.github.com/*"
+        "https://*.github.com/*",
+        "http://ghbtns.com/*",
+        "https://ghbtns.com/*"
     ]
 }
